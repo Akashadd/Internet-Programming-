@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #389bb9;
+}
+ h3 {
+    color: #d93a3a;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px
+}
+
+button:hover {
+    background-color: #666864;
+}
+
+#login, #reg {
+    margin: 10px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: auto;
+}
+p{
+    color: #ddceec;
+}
+

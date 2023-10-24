@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-Road Vehicle Breakdown Assistance</title>
+    <style>
+        /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("image.jpeg");
+    background-image: -webkit-radial-gradient();
+    
+}
+ul{
+    color: rgb(231, 36, 36);
+    text-shadow: 10px;
+    list-style-type:upper-roman ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: solid;
+} */
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#services li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Form Styles */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+    position: fixed;
+    width: 100%
+}
+button{
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to On-Road Vehicle Assistance</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Our Services:</h2>
+        <br>
+        <ul>
+            <li><h3>24/7 Emergency Assistance</h4></li>
+            <li><h3>Towing Service</h4></li>
+            <li><h3>Battery Jumpstart</h4></li>
+            <li><h3>Flat Tire Repair</h4></li>
+            <li><h3>Fuel Delivery</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- <img src="/resume/image.jpeg"> -->
+        <p>For immediate assistance, call our hotline at: <strong>123-456-7890</strong></p>
+        <p>Or fill out the form below:</p>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <input type="submit"> 
+        </form>
+    
+    </section>
+    <footer>
+        <p>&copy; 2023 On-Road Vehicle Assistance</p>
+    </footer>
+</body>
+</html>
